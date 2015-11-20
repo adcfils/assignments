@@ -1,5 +1,4 @@
 
-
 Your code should be readable and generally well-documented.
 General aspects taken into consideration when grading:
 
@@ -16,3 +15,10 @@ General aspects taken into consideration when grading:
 
 Remember, 10% of the assignment code is reserved for the quality of your coding 
 style.
+
+
+For a more complete example of a coding style guide, for production value code,
+you may check out one of these links:
+C++  https://google.github.io/styleguide/cppguide.html
+Java http://www.oracle.com/technetwork/java/codeconvtoc-136057.html
+     https://google.github.io/styleguide/javaguide.html
