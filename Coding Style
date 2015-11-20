@@ -1,0 +1,18 @@
+
+
+Your code should be readable and generally well-documented.
+General aspects taken into consideration when grading:
+
+- consistent indentation
+- avoid duplicate code
+- remove commented code
+- avoid 'long' functions (more than ~100 lines) 
+- avoid hardcoded values
+- avoid long variable names
+- avoid memory leaks
+- compiler warnings
+- avoid mixing whitespaces with tabs
+- avoid long lines (> ~80 characters for C, > ~100 characters for Java)
+
+Remember, 10% of the assignment code is reserved for the quality of your coding 
+style.
