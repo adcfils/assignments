@@ -9,7 +9,7 @@ General aspects taken into consideration when grading:
 - avoid hardcoded values
 - avoid long variable names
 - avoid memory leaks
-- compiler warnings
+- fix compiler warnings
 - avoid mixing whitespaces with tabs
 - avoid long lines (> ~80 characters for C, > ~100 characters for Java)
 - write your name at the start of every source file/in the Readme file
