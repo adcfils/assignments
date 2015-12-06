@@ -3,10 +3,10 @@ build:
 	javac *.java 2>&1
 
 run-p1:
-	java -cp . FileDiff
+	java -cp . Forest
 
 run-p2:
-	java -cp . Tunnel
+	java -cp . Wrob
 
 clean:
 	rm -rf *.class
