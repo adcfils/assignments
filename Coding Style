@@ -14,8 +14,8 @@ General aspects taken into consideration when grading:
 - avoid long lines (> ~80 characters for C, > ~100 characters for Java)
 - write your name at the start of every source file/in the Readme file
 
-Remember, 10% of the assignment grade is reserved for the quality of your coding 
-style.
+Remember, 20% of the assignment grade is reserved for the quality of your coding 
+style and documentation.
 
 
 For a more complete example of a coding style guide, for production value code,
