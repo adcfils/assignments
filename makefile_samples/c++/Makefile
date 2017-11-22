@@ -11,10 +11,10 @@ build-tunnel:
 build: build-filediff build-tunnel
     
 run-p1:
-	./filediff
+	./tunnel
 
 run-p2:
-	./tunnel
+	./filediff
 	
 clean:
 	rm -f tunnel filediff *.in *.out
