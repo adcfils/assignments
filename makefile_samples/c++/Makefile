@@ -2,19 +2,19 @@
 
 all: build
 
-build-filediff:
-	g++ filediff.cpp -o filediff --std=c++11
+build-plants:
+	g++ plants.cpp -o plants --std=c++11
 
-build-tunnel:
-	g++ tunnel.cpp -o tunnel -Wall
+build-palace:
+	g++ palace.cpp -o palace -Wall
 
 build: build-filediff build-tunnel
     
 run-p1:
-	./tunnel
+	./plants
 
 run-p2:
-	./filediff
+	./palace
 	
 clean:
-	rm -f tunnel filediff *.in *.out
+	rm -f plants palace *.in *.out
