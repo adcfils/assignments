@@ -1,12 +1,10 @@
-
-
 all: build
 
 build-plants:
-	g++ plants.cpp -o plants --std=c++11
+	g++ plants.cpp -o plants --std=c++11 -O3
 
 build-palace:
-	g++ palace.cpp -o palace -Wall
+	g++ madripoor.cpp -o madripoor -Wall -O3
 
 build: build-filediff build-tunnel
     
@@ -14,7 +12,7 @@ run-p1:
 	./plants
 
 run-p2:
-	./palace
+	./madripoor
 	
 clean:
-	rm -f plants palace *.in *.out
+	rm -f plants madripoor *.in *.out

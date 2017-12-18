@@ -6,7 +6,7 @@ run-p1:
 	java -cp . Plants
 
 run-p2:
-	java -cp . Palace
+	java -cp . Madripoor
 
 clean:
 	rm -rf *.class
