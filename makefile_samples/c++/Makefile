@@ -1,18 +1,12 @@
 all: build
 
-build-plants:
-	g++ plants.cpp -o plants --std=c++11 -O3
+build-radiation:
+	g++ radiation.cpp -o radiation --std=c++11 -O3
 
-build-palace:
-	g++ madripoor.cpp -o madripoor -Wall -O3
-
-build: build-filediff build-tunnel
+build: build-radiation
     
 run-p1:
-	./plants
+	./radiation
 
-run-p2:
-	./madripoor
-	
 clean:
-	rm -f plants madripoor *.in *.out
+	rm -f radiation *.in *.out
