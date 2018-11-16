@@ -1,12 +1,18 @@
 all: build
 
-build-radiation:
-	g++ radiation.cpp -o radiation --std=c++11 -O3
+build-space:
+	g++ space.cpp -o space --std=c++11 -O2
 
-build: build-radiation
+build-earth:
+	g++ earth.cpp -o earth --std=c++11 -O2
+
+build: build-space build-earth
     
 run-p1:
-	./radiation
+	./space
+	
+run-p2:
+	./earth
 
 clean:
-	rm -f radiation *.in *.out
+	rm -f space earth *.in *.out
