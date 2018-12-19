@@ -1,18 +1,18 @@
 all: build
 
-build-space:
-	g++ space.cpp -o space --std=c++11 -O2
+build-socialnetwork:
+	g++ socialnetwork.cpp -o socialnetwork --std=c++11 -g
 
-build-earth:
-	g++ earth.cpp -o earth --std=c++11 -O2
+build-polyglots:
+	g++ polyglots.cpp -o polyglots --std=c++11 -O2
 
-build: build-space build-earth
+build: build-socialnetwork build-polyglots
     
 run-p1:
-	./space
+	./socialnetwork
 	
 run-p2:
-	./earth
+	./polyglots
 
 clean:
-	rm -f space earth *.in *.out
+	rm -f socialnetwork polyglots *.in *.out
