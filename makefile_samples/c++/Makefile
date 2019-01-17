@@ -1,18 +1,12 @@
 all: build
 
-build-socialnetwork:
-	g++ socialnetwork.cpp -o socialnetwork --std=c++11 -g
+build-workcommute:
+	g++ workcommute.cpp -o workcommute --std=c++11 -O2
 
-build-polyglots:
-	g++ polyglots.cpp -o polyglots --std=c++11 -O2
-
-build: build-socialnetwork build-polyglots
+build: build-workcommute
     
 run-p1:
-	./socialnetwork
-	
-run-p2:
-	./polyglots
+	./workcommute
 
 clean:
-	rm -f socialnetwork polyglots *.in *.out
+	rm -f workcommute *.in *.out
